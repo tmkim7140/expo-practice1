@@ -1,9 +1,11 @@
 import 'react-native-gesture-handler';
 
-import AppDrawerNavigator from '@/src/navigator/AppStackNavigator'
+import AppStackNavigator from '@/src/navigator/AppStackNavigator'
+import AppBottomTabNavigator from '@/src/navigator/AppBottomTabNavigator'
 
 export default function App() {
   return (
-    <AppDrawerNavigator />
+    // <AppStackNavigator />
+    <AppBottomTabNavigator />
   );
 }
