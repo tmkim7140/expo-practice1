@@ -5,8 +5,6 @@ import { HomeTopTabProps } from '@Navigation/AppTopTabNavigator'
 export default function HomeScreen({ navigation, route }: HomeTopTabProps) {
     const prop1 = route.params?.prop1;
 
-    console.log("navigation: ", navigation)
-
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
             <Text>Home Screen</Text>

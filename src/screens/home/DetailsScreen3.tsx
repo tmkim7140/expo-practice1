@@ -6,8 +6,6 @@ export default function DetailsScreen({ navigation, route }: DetailsTopTabProps)
     const prop1 = route.params?.prop1;
     const prop2 = route.params?.prop2;
 
-    console.log("navigation: ", navigation)
-
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
             <Text>Details Screen</Text>
